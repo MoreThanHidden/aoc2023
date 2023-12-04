@@ -1,7 +1,7 @@
 use std::fs::File;
 use std::io::Read;
 
-pub(crate) fn day1_part1() {
+pub fn day1_part1() {
     //Take input from a text File
     let mut file = File::open("day1.txt").unwrap();
     let mut input = String::new();
@@ -36,7 +36,7 @@ pub(crate) fn day1_part1() {
 
 }
 
-pub(crate) fn day1_part2() {
+pub fn day1_part2() {
     //Take input from a text File
     let mut file = File::open("day1.txt").unwrap();
     let mut input = String::new();
