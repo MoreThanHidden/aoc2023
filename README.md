@@ -7,6 +7,10 @@ Advent of Code is a coding challange find out more here: https://adventofcode.co
 - Day 1 - Part 2:
   
   A lot more difficult as some words use the same space and couldn't replace them i.e twone is 21 
+
 - Day 2 - Part 1:
 
   Straight forward Carriage Return caused some issues, red, green and blue max.
+- Day 2 - Part 2:
+
+  Using the Max Function to find the max for each colour then multiply them and add to the total.
