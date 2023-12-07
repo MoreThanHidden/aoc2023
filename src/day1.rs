@@ -24,7 +24,7 @@ pub fn day1_part1() {
         }
         //Only add the first and last integer to the output
         temp = temp.chars().take(1).collect::<String>() + &temp.chars().rev().take(1).collect::<String>();
-        if(temp.len() < 1) {
+        if temp.len() < 1 {
             temp += "0";
         }
 
@@ -51,7 +51,7 @@ pub fn day1_part2() {
     //Loop through the rows
     for i in 0..input.len() {
         //Get Any Digits
-        let mut temp_input = input[i].to_string();
+        let temp_input = input[i].to_string();
 
         let digits = vec!["one", "two", "three", "four", "five", "six", "seven", "eight", "nine"];
 

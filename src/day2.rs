@@ -7,7 +7,7 @@ pub fn day2() {
     let mut file = File::open("day2.txt").unwrap();
     let mut input = String::new();
     file.read_to_string(&mut input).unwrap();
-    let mut input: Vec<&str> = input.split("\n").collect();
+    let input: Vec<&str> = input.split("\n").collect();
 
     //Create a variable to store the output
     let mut output = 0;
