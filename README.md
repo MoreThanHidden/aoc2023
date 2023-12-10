@@ -20,3 +20,9 @@ Advent of Code is a coding challange find out more here: https://adventofcode.co
 - Day 3 - Part 2:
 
   This was a lot more difficult ended up storing the coordinates in a range and then checking if the symbol was contained.
+- Day 4 - Part 1:
+
+Just find the matches and then double for each match.
+- Day 4 - Part 2:
+
+Had to make a loop and just be careful about the recursion.
